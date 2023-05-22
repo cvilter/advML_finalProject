@@ -59,9 +59,11 @@ CNN with glove vectors: [CNN_all_text_glove.ipynb](https://github.com/cvilter/ad
 
 ### Long Short-Term Memory (LSTM)
 
-From the lessons learned from CNN, we built a single LSTM model using the sectioned text from bills with less than 10,000 words.
+From the lessons learned from CNN, we built an LSTM model using the sectioned text from bills with less than 10,000 words. We experimented with different approaches to the embedding vectors.
 
-LSTM model: [LSTM.ipynb](https://github.com/cvilter/advML_finalProject/blob/main/LSTM.ipynb)
+LSTM model with randomly initalized embeddings: [LSTM.ipynb](https://github.com/cvilter/advML_finalProject/blob/main/LSTM.ipynb)
+
+LSTM model with GloVe embeddings, frozen and non-frozen: [LSTM_hp_variations.ipynb](https://github.com/cvilter/advML_finalProject/blob/main/LSTM_hp_variations.ipynb)
 
 ## Conclusion
 
